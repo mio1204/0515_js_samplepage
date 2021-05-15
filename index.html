@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ヘッダー -->
+  <header class="header flex">
+    <div class="header__box">
+    <div class="header__logo">
+      <h2 class="header__logo-ttl"><a href="#">TITLE</a></h2>
+    </div>
+    <nav class="header__nav pc">
+      <ul>
+        <li><a href="#">HOME</a></li>
+        <li><a href="#j-menu">MENU</a></li>
+        <li><a href="#j-contact">CONTACT</a></li>
+      </ul>
+    </nav>
+    </div>
+    <!-- ドロワーメニュー -->
+    <nav class="drawer__nav sp" id="nav">
+      <ul>
+        <li><a href="#">HOME</a></li>
+        <li><a href="#j-menu">MENU</a></li>
+        <li><a href="#j-contact">CONTACT</a></li>
+      </ul>
+    </nav>
+    
+    <!-- ハンバーガー -->
+    <div class="ham__menu" id="menu">
+      <span class="line--top"></span>
+      <span class="line--middle"></span>
+      <span class="line--bottom"></span>
+    </div>
+  </header>
+
+ 
+
+  <!-- firstview -->
+  <section class="firstview">
+    <div class="firstview__img container flex">
+      <div class="firstview__img-2">
+        <h1 class="firstview__ttl">5月の<br>おすすめ</h1>
+        <div class="firstview__ttl-txt">
+        <p>サンプルテキストサンプルテキスト</p>
+        <p>¥***</p>
+        </div>
+      </div>
+      <div class="firstview__img-1"></div>
+    </div>
+  </section>
+
+  <!-- スペース -->
+  <div class="container menu__container" id="j-menu">
+    <div class="menu__ttl common-ttl">MENU</div>
+  </div>
+
+  <!-- menu -->
+  <section class="menu">
+    <div class="container flex">
+      <div class="menu__box">
+        <div class="menu__box-img"><img src="img/menu2.jpg"></div>
+        <div class="menu__box-ttl"><p>APRIL</p></div>
+      </div>
+      <div class="menu__box">
+        <div class="menu__box-img"><img src="img/menu6.jpg"></div>
+        <div class="menu__box-ttl"><p>MAY</p></div>
+      </div>
+      <div class="menu__box">
+        <div class="menu__box-img"><img src="img/menu4.jpg"></div>
+        <div class="menu__box-ttl"><p>JUNE</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- スペース -->
+  <div class="container">
+    <div class="contact__ttl common-ttl">CONTACT</div>
+  </div>
+
+  <!-- contact -->
+  <div class="form" id="j-contact">
+    <div class="container">
+    <div class="form__item">
+      <p class="form__item-label">氏名</p>
+      <input type="text" class="text">
+    </div>
+    <div class="form__item">
+      <p class="form__item-label">メールアドレス</p>
+      <input type="email" class="email">
+    </div>
+    <div class="form__item">
+      <p class="form__item-label isMsg">お問い合わせ内容</p>
+      <textarea class="textarea"></textarea>
+    </div>
+    <input type="submit" class="submit" value="送信">
+  </div>
+  </div>
+
+  <!-- scroll -->
+  <div class="scroll-box">
+    <button class="scroll-top" id="scroll">TOP</button>
+  </div>
+
+
+
+
+  <script src="js/main.js"></script>
+</body>
+</html>
